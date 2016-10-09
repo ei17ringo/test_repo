@@ -4,7 +4,7 @@
 	$content = htmlspecialchars($_POST['content']);
 
   	// ニックネーム
-	if ($niiiiickname == '') {
+	if ($nickname == '') {
 	    $nickname_result = 'ニックネームが入力されていません。';
 	} else {
 	    $nickname_result = 'ようこそ、' . $nickname .'様';
